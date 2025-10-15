@@ -98,7 +98,7 @@ const initialFormData: any = {
     jenisKonsumsi: '',
     keterangan: '',
     keteranganLainnya: '',
-    jumlah: '',
+    jumlah: undefined, // <-- KODE PERBAIKAN
     lokasi: '',
     lokasiLainnya: '',
     pengaju: '',
